@@ -1,0 +1,16 @@
+---
+title: "Xiang Guo"
+image: "xiang.jpg"
+links:
+  - LinkedIn: "https://linkedin.com/"
+  - Twitter: "https://twitter.com/"
+  - GitHub: "https://github.com/"
+  - Email: "mailto:email@email.com"
+output:
+  cards::jolla_blue
+---
+ 
+Raised in New Jersey by two lawyers, I am now an aspiring data artist and 
+competitive rock climber. I moved to Seattle to fly floatplanes, but I got 
+caught up in the startup world. Send me a WhatsApp message if you have good 
+turnip prices.

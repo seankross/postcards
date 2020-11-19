@@ -1,0 +1,4 @@
+name: "Jolla Blue"
+description: >
+ Template for creating Jolla Blue.
+create_dir: true
