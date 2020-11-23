@@ -1,14 +1,16 @@
 Package: postcards
-Title: Create beautiful, simple landing pages.
-Version: 0.0.0.9007
+Title: Create beautiful, simple personal websites
+Version: 0.0.0.9008
 Authors@R: 
     person(given = "Sean",
            family = "Kross",
            role = c("aut", "cre"),
            email = "sean@seankross.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           comment = c(ORCID = "0000-0001-5215-0316"))
 Description: What the package does (one paragraph).
 License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Imports: 
+    rmarkdown

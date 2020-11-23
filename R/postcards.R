@@ -1,3 +1,5 @@
+#' Jolla website template.
+#'
 #' @export
 jolla <- function() {
 
@@ -5,12 +7,14 @@ jolla <- function() {
     theme = NULL,
     self_contained = TRUE,
     mathjax = NULL,
-    template = system.file("pandoc_templates", "jolla.html", package = "cards"),
+    template = system.file("pandoc_templates", "jolla.html", package = "postcards"),
     md_extensions = "-autolink_bare_uris"
   )
 
 }
 
+#' Jolla Blue website template.
+#'
 #' @export
 jolla_blue <- function() {
 
@@ -18,12 +22,14 @@ jolla_blue <- function() {
     theme = NULL,
     self_contained = TRUE,
     mathjax = NULL,
-    template = system.file("pandoc_templates", "jolla-blue.html", package = "cards"),
+    template = system.file("pandoc_templates", "jolla-blue.html", package = "postcards"),
     md_extensions = "-autolink_bare_uris"
   )
 
 }
 
+#' Jolla Blue website template.
+#'
 #' @export
 trestles <- function() {
 
@@ -31,12 +37,14 @@ trestles <- function() {
     theme = NULL,
     self_contained = TRUE,
     mathjax = NULL,
-    template = system.file("pandoc_templates", "trestles.html", package = "cards"),
+    template = system.file("pandoc_templates", "trestles.html", package = "postcards"),
     md_extensions = "-autolink_bare_uris"
   )
 
 }
 
+#' Onofre website template.
+#'
 #' @export
 onofre <- function() {
 
@@ -44,7 +52,7 @@ onofre <- function() {
     theme = NULL,
     self_contained = TRUE,
     mathjax = NULL,
-    template = system.file("pandoc_templates", "onofre.html", package = "cards"),
+    template = system.file("pandoc_templates", "onofre.html", package = "postcards"),
     md_extensions = "-autolink_bare_uris"
   )
 
