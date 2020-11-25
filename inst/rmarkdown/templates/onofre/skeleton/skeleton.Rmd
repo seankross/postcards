@@ -10,7 +10,7 @@ links:
   - Twitter: "https://twitter.com/"
   - Email: "mailto:email@email.com"
 output:
-  cards::onofre
+  postcards::onofre
 ---
  
 György Herzl is a filmmaker and computational storyteller based in Leipzig,

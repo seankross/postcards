@@ -40,7 +40,7 @@ links:
   - GitHub: "https://github.com/"
   - Email: "mailto:email@email.com"
 output:
-  cards::jolla
+  postcards::jolla
 ---
  
 I am a classically trained data scientist living in the San Fransisco Bay Area. 
@@ -62,7 +62,7 @@ links:
   - GitHub: "https://github.com/"
   - Email: "mailto:email@email.com"
 output:
-  cards::jolla_blue
+  postcards::jolla_blue
 ---
  
 Raised in New Jersey by two lawyers, I am now an aspiring data artist and 
@@ -85,7 +85,7 @@ links:
   - GitHub: "https://github.com/"
   - Email: "mailto:email@email.com"
 output:
-  cards::trestles
+  postcards::trestles
 ---
  
 ## Bio
@@ -130,7 +130,7 @@ links:
   - Twitter: "https://twitter.com/"
   - Email: "mailto:email@email.com"
 output:
-  cards::onofre
+  postcards::onofre
 ---
  
 György Herzl is a filmmaker and computational storyteller based in Leipzig,

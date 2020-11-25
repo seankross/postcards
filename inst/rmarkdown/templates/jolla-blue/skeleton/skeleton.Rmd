@@ -7,7 +7,7 @@ links:
   - GitHub: "https://github.com/"
   - Email: "mailto:email@email.com"
 output:
-  cards::jolla_blue
+  postcards::jolla_blue
 ---
  
 Raised in New Jersey by two lawyers, I am now an aspiring data artist and 
