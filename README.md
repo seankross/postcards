@@ -17,12 +17,33 @@ Postcards includes four templates:
 [Trestles](https://seankross.com/postcards-templates/trestles/),
 and [Onofre](https://seankross.com/postcards-templates/onofre/).
 Each site is optimized for being displayed on desktop and mobile.
+The goal of the package is to make it easy for anyone to create a single page
+personal website with one R Markdown document. I hope this package can quickly
+demonstrate the power and possibilities of the R and R Markdown ecosystem to 
+newcomers.
+
 To get started customizing one of these templates you should use
 RStudio. Once you open RStudio: select **File**, **New File**, **R Markdown**, 
 then select **From Template** to choose which template you want to start with.
 Select **OK** after you choose a name for the folder that will contain your 
 site. This folder will contain two files: an R Markdown document with your
 site's content, and a sample photo that you should replace.
+
+If you are not using RStudio, you can create the corresponding template files
+using the following commands:
+
+``` r
+rmarkdown::draft("index.Rmd", "Jolla", package = "postcards")
+rmarkdown::draft("index.Rmd", "Jolla-Blue", package = "postcards")
+rmarkdown::draft("index.Rmd", "Trestles", package = "postcards")
+rmarkdown::draft("index.Rmd", "Onofre", package = "postcards")
+```
+
+To compile the self contained HTML file for your site, you can use the **Knit**
+button in RStudio or you use `rmarkdown::render("index.html")`. The HTML file
+can then be easily deployed to 
+[GitHub Pages](https://pages.github.com/) or
+[Netlify Drop](https://app.netlify.com/drop).
 
 ## The Templates
 
@@ -92,7 +113,8 @@ output:
 
 Frank Hermosillo studies neural networks and their applications at Google 
 rain. His research focuses on differentiable network pruning approximation and 
-decentralized gradient inversion mechanics. He frequently collaborates with researchers who study machine learning, computer vision, and cognitive science.
+decentralized gradient inversion mechanics. He frequently collaborates with 
+researchers who study machine learning, computer vision, and cognitive science.
 His work has been featured in WIRED, The Atlantic, Newsweek, and The New York 
 Times Magazine.
 
@@ -139,3 +161,7 @@ Filmfestspiele Berlin, Kunsthalle Basel, and the New Museum of Contemporary Art
 in New York City. "ГУМ" is their latest project which examines the rise of
 consumerism in post-Soviet republics.
 ```
+
+## Code of Conduct
+
+Please note that the postcards project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.

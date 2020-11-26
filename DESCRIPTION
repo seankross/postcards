@@ -1,16 +1,19 @@
 Package: postcards
-Title: Create beautiful, simple personal websites
-Version: 0.0.0.9009
+Title: Create Beautiful, Simple Personal Websites
+Version: 0.1.0
 Authors@R: 
     person(given = "Sean",
            family = "Kross",
            role = c("aut", "cre"),
            email = "sean@seankross.com",
            comment = c(ORCID = "0000-0001-5215-0316"))
-Description: What the package does (one paragraph).
+Description: A collection of R Markdown templates for creating simple and easy 
+  to personalize single page websites.
 License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
 Imports: 
     rmarkdown
+Suggests: 
+    testthat
