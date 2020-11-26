@@ -29,13 +29,12 @@
             <div class="p-2">
               <div id="icon-list">
                 <ul class="list-inline">
-
-                  $for(links)$
+                  $for(socials)$
                   $for(it/pairs)$
                   <li class="list-inline-item">
-                    <a href=$it.value$>
-                      <button type="button" class="btn btn-outline-dark">
-                        $it.key$
+                    <a href=$it.value.link$ target="_blank">
+                      <button type="button" class="btn btn-outline-dark my-1 my-lg-0">
+                        $if(it.value.icon)$$it.value.icon$$endif$ $it.key$
                       </button>
                     </a>
                   </li>
@@ -69,13 +68,15 @@
             <div class="row justify-content-center align-items-center">
               <div class="col-8 p-1 text-center">
                 <div class="list-group">
-                  $for(links)$
+                  $for(socials)$
                   $for(it/pairs)$
-                  <a href=$it.value$>
-                    <button type="button" class="list-group-item list-group-item-action my-1 rounded">
-                      $it.key$
-                    </button>
-                  </a>
+                  <li class="list-inline-item">
+                    <a href=$it.value.link$ target="_blank">
+                      <button type="button" class="btn btn-outline-dark my-1 my-lg-0">
+                        $if(it.value.icon)$$it.value.icon$$endif$ $it.key$
+                      </button>
+                    </a>
+                  </li>
                   $endfor$
                   $endfor$
                 </div>

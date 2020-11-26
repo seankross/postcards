@@ -35,12 +35,12 @@
 
           <div class="d-none d-sm-block" id="icon-list">
             <ul class="list-inline">
-              $for(links)$
+              $for(socials)$
               $for(it/pairs)$
               <li class="list-inline-item">
-                <a href=$it.value$>
+                <a href=$it.value.link$ target="_blank">
                   <button type="button" class="btn btn-outline-light">
-                    $it.key$
+                    $if(it.value.icon)$$it.value.icon$$endif$ $it.key$
                   </button>
                 </a>
               </li>
@@ -52,11 +52,11 @@
           <div class="row justify-content-center align-items-center">
             <div class="col-8 m-1 text-center d-block d-sm-none">
               <div class="list-group">
-                $for(links)$
+                $for(socials)$
                 $for(it/pairs)$
-                <a href=$it.value$>
+                <a href=$it.value.link$ target="_blank">
                   <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #3A66B7;color: #FEFEFA;border-color: #FEFEFA;">
-                    $it.key$
+                    $if(it.value.icon)$$it.value.icon$$endif$ $it.key$
                   </button>
                 </a>
                 $endfor$
