@@ -55,11 +55,15 @@ The HTML file can then be easily deployed to
 ---
 title: "Tobi Burns"
 image: "tobi.jpg"
-links:
-  - LinkedIn: "https://linkedin.com/"
-  - Twitter: "https://twitter.com/"
-  - GitHub: "https://github.com/"
-  - Email: "mailto:email@email.com"
+socials:
+  - LinkedIn: 
+      link: "https://linkedin.com/"
+  - Twitter: 
+      link: "https://twitter.com/"
+  - GitHub: 
+      link: "https://github.com/"
+  - Email: 
+      link: "mailto:email@email.com"
 output:
   postcards::jolla
 ---
@@ -77,11 +81,15 @@ true crime podcasts, and causal inference.
 ---
 title: "Xiang Guo"
 image: "xiang.jpg"
-links:
-  - LinkedIn: "https://linkedin.com/"
-  - Twitter: "https://twitter.com/"
-  - GitHub: "https://github.com/"
-  - Email: "mailto:email@email.com"
+socials:
+  - LinkedIn: 
+      link: "https://linkedin.com/"
+  - Twitter: 
+      link: "https://twitter.com/"
+  - GitHub: 
+      link: "https://github.com/"
+  - Email: 
+      link: "mailto:email@email.com"
 output:
   postcards::jolla_blue
 ---
@@ -100,11 +108,15 @@ turnip prices.
 ---
 title: "Frank Hermosillo"
 image: "frank.jpg"
-links:
-  - LinkedIn: "https://linkedin.com/"
-  - Twitter: "https://twitter.com/"
-  - GitHub: "https://github.com/"
-  - Email: "mailto:email@email.com"
+socials:
+  - LinkedIn: 
+      link: "https://linkedin.com/"
+  - Twitter: 
+      link: "https://twitter.com/"
+  - GitHub: 
+      link: "https://github.com/"
+  - Email: 
+      link: "mailto:email@email.com"
 output:
   postcards::trestles
 ---
@@ -146,11 +158,15 @@ image: "herzl.jpg"
 color1: "#5A59A3"
 color2: "#C66060"
 angle: 130
-links:
-  - YouTube: "https://youtube.com/"
-  - Vimeo: "https://vimeo.com/"
-  - Twitter: "https://twitter.com/"
-  - Email: "mailto:email@email.com"
+socials:
+  - YouTube: 
+      link: "https://youtube.com/"
+  - Vimeo: 
+      link: "https://vimeo.com/"
+  - Twitter: 
+      link: "https://twitter.com/"
+  - Email: 
+      link: "mailto:email@email.com"
 output:
   postcards::onofre
 ---

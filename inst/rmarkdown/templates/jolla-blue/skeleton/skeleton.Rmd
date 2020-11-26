@@ -1,11 +1,15 @@
 ---
 title: "Xiang Guo"
 image: "xiang.jpg"
-links:
-  - LinkedIn: "https://linkedin.com/"
-  - Twitter: "https://twitter.com/"
-  - GitHub: "https://github.com/"
-  - Email: "mailto:email@email.com"
+socials:
+  - LinkedIn: 
+      link: "https://linkedin.com/"
+  - Twitter: 
+      link: "https://twitter.com/"
+  - GitHub: 
+      link: "https://github.com/"
+  - Email: 
+      link: "mailto:email@email.com"
 output:
   postcards::jolla_blue
 ---

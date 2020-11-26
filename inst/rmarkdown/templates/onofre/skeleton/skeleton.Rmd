@@ -4,11 +4,15 @@ image: "herzl.jpg"
 color1: "#5A59A3"
 color2: "#C66060"
 angle: 130
-links:
-  - YouTube: "https://youtube.com/"
-  - Vimeo: "https://vimeo.com/"
-  - Twitter: "https://twitter.com/"
-  - Email: "mailto:email@email.com"
+socials:
+  - YouTube: 
+      link: "https://youtube.com/"
+  - Vimeo: 
+      link: "https://vimeo.com/"
+  - Twitter: 
+      link: "https://twitter.com/"
+  - Email: 
+      link: "mailto:email@email.com"
 output:
   postcards::onofre
 ---
