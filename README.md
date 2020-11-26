@@ -40,8 +40,8 @@ rmarkdown::draft("index.Rmd", "Onofre", package = "postcards")
 ```
 
 To compile the self contained HTML file for your site, you can use the **Knit**
-button in RStudio or you use `rmarkdown::render("index.html")`. The HTML file
-can then be easily deployed to 
+button in RStudio or you can use `rmarkdown::render("index.Rmd")`. 
+The HTML file can then be easily deployed to 
 [GitHub Pages](https://pages.github.com/) or
 [Netlify Drop](https://app.netlify.com/drop).
 
