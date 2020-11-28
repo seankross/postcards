@@ -35,13 +35,15 @@ get_template <- function(name) {
 
   if(old) {
     template_file <- paste0(name, "-pandoc-old.html")
+    self_contained <- FALSE
   } else {
     template_file <- paste0(name, ".html")
+    self_contained <- TRUE
   }
 
   rmarkdown::html_document(
     theme = NULL,
-    self_contained = TRUE,
+    self_contained = self_contained,
     mathjax = NULL,
     template = system.file("pandoc_templates", template_file, package = "postcards"),
     md_extensions = "-autolink_bare_uris"
