@@ -6,7 +6,7 @@ R Markdown.
 ## Installation
 
 ``` r
-remotes::install_github("seankross/postcards")
+remotes::install_github("seankross/postcards@main")
 ```
 
 ## Getting Started
