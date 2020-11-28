@@ -40,15 +40,13 @@
           <div class="pl-5 pt-4" id="icon-list">
             <ul class="list-inline">
               $for(links)$
-              $for(it/pairs)$
               <li class="list-inline-item">
-                <a href=$it.value$>
+                <a href=$links.url$>
                   <button type="button" class="btn btn-outline-light">
-                    $it.key$
+                    $links.label$
                   </button>
                 </a>
               </li>
-              $endfor$
               $endfor$
             </ul>
           </div>
@@ -77,13 +75,11 @@
           <div class="col-8 p-1 text-center">
               <div class="list-group">
                 $for(links)$
-                $for(it/pairs)$
-                <a href=$it.value$>
+                <a href=$links.url$>
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: Transparent; color:white; border-color: white;">
-                    $it.key$
+                    $links.label$
                     </button>
                 </a>
-                $endfor$
                 $endfor$
               </div>
           </div>
