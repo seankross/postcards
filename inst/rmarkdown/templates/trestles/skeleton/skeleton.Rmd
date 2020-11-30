@@ -13,7 +13,7 @@ output:
 ## Bio
 
 Frank Hermosillo studies neural networks and their applications at Google 
-rain. His research focuses on differentiable network pruning approximation and 
+Brain. His research focuses on differentiable network pruning approximation and 
 decentralized gradient inversion mechanics. He frequently collaborates with researchers who study machine learning, computer vision, and cognitive science.
 His work has been featured in WIRED, The Atlantic, Newsweek, and The New York 
 Times Magazine.
