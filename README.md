@@ -50,7 +50,7 @@ newcomers.
 To get started customizing one of these templates you should use
 RStudio. Once you open RStudio: select **File**, **New File**, **R Markdown**, 
 then select **From Template** to choose which template you want to start with.
-Select **OK** after you choose a name for the folder that will contain your 
+Select **OK** after you choose a name for the file (e.g. index.Rmd) and for the folder that will contain your 
 site. This folder will contain two files: an R Markdown document with your
 site's content, and a sample photo that you should replace.
 
@@ -89,7 +89,7 @@ output:
   postcards::jolla
 ---
  
-I am a classically trained data scientist living in the San Fransisco Bay Area. 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
 Currently I work on the Oculus team at Facebook. I love talking about baseball, 
 true crime podcasts, and causal inference.
 ```
@@ -137,7 +137,7 @@ output:
 ## Bio
 
 Frank Hermosillo studies neural networks and their applications at Google 
-rain. His research focuses on differentiable network pruning approximation and 
+Brain. His research focuses on differentiable network pruning approximation and 
 decentralized gradient inversion mechanics. He frequently collaborates with 
 researchers who study machine learning, computer vision, and cognitive science.
 His work has been featured in WIRED, The Atlantic, Newsweek, and The New York 
@@ -155,7 +155,7 @@ B.S. in Computer Science | September 2005 - May 2009
 
 ## Experience
 
-**Google Brain** | Principle Investigator | January 2018 - Present
+**Google Brain** | Principal Investigator | January 2018 - Present
 
 **Netflix** | Research Scientist | June 2014 - December 2017
 ```
