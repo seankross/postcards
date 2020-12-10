@@ -13,6 +13,10 @@
 
     <title>$title$</title>
 
+    $if(favicon)$
+      <link rel="shortcut icon" href=$favicon$>
+    $endif$
+
   </head>
   <body>
     <div class="container-flex min-vh-100 d-none d-lg-block d-xl-block">
@@ -32,7 +36,7 @@
                   $for(links)$
                   <li class="list-inline-item">
                     <a href=$links.url$>
-                      <button type="button" class="btn btn-outline-dark">
+                      <button type="button" class="btn btn-outline-dark mb-2">
                         $links.label$
                       </button>
                     </a>

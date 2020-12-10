@@ -11,29 +11,6 @@ You can install Postcards with the following command:
 remotes::install_github("seankross/postcards@main")
 ```
 
-Currently Postcards works best with Pandoc version 2.8 or greater, although we
-are working on better functionality for earlier versions of Pandoc. 
-You can check which version of Pandoc you have installed with the following 
-command:
-
-``` r
-rmarkdown::pandoc_version()
-```
-
-If you have an earlier version of Pandoc installed we recommend you 
-[install the latest version of Pandoc](https://pandoc.org/installing.html) and
-then run the command:
-
-``` r
-rmarkdown::find_pandoc(cache = FALSE)
-```
-
-If you do not see that the new Pandoc version has been installed, you may need
-to use RStudio and 
-[install the latest preview release of RStudio](https://rstudio.com/products/rstudio/download/preview/).
-If you are still encountering error messages after trying the above please open
-an issue.
-
 ## Getting Started
 
 Postcards includes four templates:
@@ -202,6 +179,33 @@ Filmfestspiele Berlin, Kunsthalle Basel, and the New Museum of Contemporary Art
 in New York City. "ГУМ" is their latest project which examines the rise of
 consumerism in post-Soviet republics.
 ```
+
+## Troubleshooting
+
+Most issues that people have using this package are related their installation
+Pandoc, software that R Markdown relies on.
+Currently Postcards works best with Pandoc version 2.8 or greater, although we
+are working on better functionality for earlier versions of Pandoc. 
+You can check which version of Pandoc you have installed with the following 
+command:
+
+``` r
+rmarkdown::pandoc_version()
+```
+
+If you have an earlier version of Pandoc installed we recommend you 
+[install the latest version of Pandoc](https://pandoc.org/installing.html) and
+then run the command:
+
+``` r
+rmarkdown::find_pandoc(cache = FALSE)
+```
+
+If you do not see that the new Pandoc version has been installed, you may need
+to use RStudio and 
+[install the latest preview release of RStudio](https://rstudio.com/products/rstudio/download/preview/).
+If you are still encountering error messages after trying the above please open
+an issue.
 
 ## Code of Conduct
 

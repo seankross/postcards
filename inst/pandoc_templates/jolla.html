@@ -10,6 +10,10 @@
 
     <title>$title$</title>
 
+    $if(favicon)$
+      <link rel="shortcut icon" href=$favicon$>
+    $endif$
+
   </head>
   <body>
     <div class="container min-vh-100">
@@ -30,18 +34,20 @@
 
           <hr style="width:60%;"/>
 
-          <div class="d-none d-sm-block" id="icon-list">
-            <ul class="list-inline">
-              $for(links)$
-              <li class="list-inline-item">
-                <a href=$links.url$>
-                  <button type="button" class="btn btn-outline-dark">
-                    $links.label$
-                  </button>
-                </a>
-              </li>
-              $endfor$
-            </ul>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-8 text-center d-none d-sm-block">
+              <ul class="list-inline">
+                $for(links)$
+                <li class="list-inline-item">
+                  <a href=$links.url$>
+                    <button type="button" class="btn btn-outline-dark mb-2">
+                      $links.label$
+                    </button>
+                  </a>
+                </li>
+                $endfor$
+              </ul>
+            </div>
           </div>
 
           <div class="row justify-content-center align-items-center">
