@@ -34,20 +34,22 @@
 
           <hr style="width:60%;"/>
 
-          <div class="d-none d-sm-block" id="icon-list">
-            <ul class="list-inline">
-              $for(links)$
-              $for(it/pairs)$
-              <li class="list-inline-item">
-                <a href=$it.value$>
-                  <button type="button" class="btn btn-outline-dark">
-                    $it.key$
-                  </button>
-                </a>
-              </li>
-              $endfor$
-              $endfor$
-            </ul>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-8 text-center d-none d-sm-block">
+              <ul class="list-inline">
+                $for(links)$
+                $for(it/pairs)$
+                <li class="list-inline-item">
+                  <a href=$it.value$>
+                    <button type="button" class="btn btn-outline-dark mb-2">
+                      $it.key$
+                    </button>
+                  </a>
+                </li>
+                $endfor$
+                $endfor$
+              </ul>
+            </div>
           </div>
 
           <div class="row justify-content-center align-items-center">
