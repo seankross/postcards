@@ -1,5 +1,10 @@
 # postcards
 
+<!-- badges: start -->
+[![CRAN status](https://www.r-pkg.org/badges/version/postcards)](https://CRAN.R-project.org/package=postcards)
+[![R-CMD-check](https://github.com/seankross/postcards/workflows/R-CMD-check/badge.svg)](https://github.com/seankross/postcards/actions)
+<!-- badges: end -->
+
 Create simple, beautiful personal websites and landing pages using only
 R Markdown.
 
