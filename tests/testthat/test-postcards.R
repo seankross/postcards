@@ -8,8 +8,8 @@ test_template <- function(template){
 }
 
 test_that("Templates can be created.", {
-  expect_true(test_template("Jolla"))
-  expect_true(test_template("Jolla-Blue"))
-  expect_true(test_template("Trestles"))
-  expect_true(test_template("Onofre"))
+  expect_true(test_template("jolla"))
+  expect_true(test_template("jolla-blue"))
+  expect_true(test_template("trestles"))
+  expect_true(test_template("onofre"))
 })

@@ -1,8 +1,9 @@
 ## Test environments
-* local macOS Mojave, R 4.0.2
-* Ubuntu Linux 16.04 LTS (on R-hub), release
-* Fedora Linux (on R-hub), devel
-* win-builder (devel)
+* local macOS Mojave: R 4.0.2
+* GitHub Actions (ubuntu-20.04): release, devel
+* GitHub Actions (windows): release
+* Github Actions (macOS): release
+* win-builder: devel
 
 ## R CMD check results
 

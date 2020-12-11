@@ -40,10 +40,10 @@ If you are not using RStudio, you can create the corresponding template files
 using the following commands:
 
 ``` r
-rmarkdown::draft("index.Rmd", "Jolla", package = "postcards")
-rmarkdown::draft("index.Rmd", "Jolla-Blue", package = "postcards")
-rmarkdown::draft("index.Rmd", "Trestles", package = "postcards")
-rmarkdown::draft("index.Rmd", "Onofre", package = "postcards")
+rmarkdown::draft("index.Rmd", "jolla", package = "postcards")
+rmarkdown::draft("index.Rmd", "jolla-blue", package = "postcards")
+rmarkdown::draft("index.Rmd", "trestles", package = "postcards")
+rmarkdown::draft("index.Rmd", "onofre", package = "postcards")
 ```
 
 To compile the self contained HTML file for your site, you can use the **Knit**
