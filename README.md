@@ -66,7 +66,7 @@ output:
   postcards::jolla
 ---
  
-I am a classically trained data scientist living in the San Fransisco Bay Area. 
+I am a classically trained data scientist living in the San Francisco Bay Area. 
 Currently I work on the Oculus team at Facebook. I love talking about baseball, 
 true crime podcasts, and causal inference.
 ```
@@ -100,6 +100,7 @@ turnip prices.
 
 ```
 ---
+---
 title: "Frank Hermosillo"
 image: "frank.jpg"
 links:
@@ -114,7 +115,7 @@ output:
 ## Bio
 
 Frank Hermosillo studies neural networks and their applications at Google 
-rain. His research focuses on differentiable network pruning approximation and 
+Brain. His research focuses on differentiable network pruning approximation and 
 decentralized gradient inversion mechanics. He frequently collaborates with 
 researchers who study machine learning, computer vision, and cognitive science.
 His work has been featured in WIRED, The Atlantic, Newsweek, and The New York 
@@ -132,7 +133,7 @@ B.S. in Computer Science | September 2005 - May 2009
 
 ## Experience
 
-**Google Brain** | Principle Investigator | January 2018 - Present
+**Google Brain** | Principal Investigator | January 2018 - Present
 
 **Netflix** | Research Scientist | June 2014 - December 2017
 ```
