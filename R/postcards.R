@@ -31,15 +31,9 @@ get_template <- function(name) {
   # Must we use "old" templates?
   minimum_required <- "2.8"
   installed <- as.character(rmarkdown::pandoc_version())
-  old <- utils::compareVersion(minimum_required, installed) > 0
+  self_contained <- !(utils::compareVersion(minimum_required, installed) > 0)
 
-  if(old) {
-    template_file <- paste0(name, "-pandoc-old.html")
-    self_contained <- FALSE
-  } else {
-    template_file <- paste0(name, ".html")
-    self_contained <- TRUE
-  }
+  template_file <- paste0(name, ".html")
 
   rmarkdown::html_document(
     theme = NULL,

@@ -2,10 +2,14 @@
 title: "Tobi Burns"
 image: "tobi.jpg"
 links:
-  - LinkedIn: "https://linkedin.com/"
-  - Twitter: "https://twitter.com/"
-  - GitHub: "https://github.com/"
-  - Email: "mailto:email@email.com"
+  - label: LinkedIn
+    url: "https://linkedin.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Email
+    url: "mailto:email@email.com"
 output:
   postcards::jolla
 ---

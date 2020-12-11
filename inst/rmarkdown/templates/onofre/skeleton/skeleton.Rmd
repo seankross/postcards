@@ -5,10 +5,14 @@ color1: "#5A59A3"
 color2: "#C66060"
 angle: 130
 links:
-  - YouTube: "https://youtube.com/"
-  - Vimeo: "https://vimeo.com/"
-  - Twitter: "https://twitter.com/"
-  - Email: "mailto:email@email.com"
+  - label: YouTube
+    url: "https://youtube.com/"
+  - label: Vimeo
+    url: "https://vimeo.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+  - label: Email
+    url: "mailto:email@email.com"
 output:
   postcards::onofre
 ---
