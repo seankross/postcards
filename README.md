@@ -13,6 +13,12 @@ R Markdown.
 You can install Postcards with the following command:
 
 ``` r
+install.packages("postcards")
+```
+
+Or you can install the latest development version:
+
+``` r
 remotes::install_github("seankross/postcards@main")
 ```
 
