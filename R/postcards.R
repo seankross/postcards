@@ -11,7 +11,7 @@ jolla <- function(css = NULL, includes = NULL) {
 #' @inheritParams rmarkdown::html_document
 #' @export
 jolla_blue <- function(css = NULL, includes = NULL) {
-  get_template("jolla-blue")
+  get_template("jolla-blue", css, includes)
 }
 
 #' Jolla Blue website template.
@@ -19,7 +19,7 @@ jolla_blue <- function(css = NULL, includes = NULL) {
 #' @inheritParams rmarkdown::html_document
 #' @export
 trestles <- function(css = NULL, includes = NULL) {
-  get_template("trestles")
+  get_template("trestles", css, includes)
 }
 
 #' Onofre website template.
@@ -27,7 +27,7 @@ trestles <- function(css = NULL, includes = NULL) {
 #' @inheritParams rmarkdown::html_document
 #' @export
 onofre <- function(css = NULL, includes = NULL) {
-  get_template("onofre")
+  get_template("onofre", css, includes)
 }
 
 get_template <- function(name, css, includes) {
