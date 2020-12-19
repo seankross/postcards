@@ -4,7 +4,13 @@
 \alias{onofre}
 \title{Onofre website template.}
 \usage{
-onofre()
+onofre(css = NULL, includes = NULL)
+}
+\arguments{
+\item{css}{One or more css files to include}
+
+\item{includes}{Named list of additional content to include within the
+document (typically created using the \code{\link[rmarkdown]{includes}} function).}
 }
 \description{
 Onofre website template.
