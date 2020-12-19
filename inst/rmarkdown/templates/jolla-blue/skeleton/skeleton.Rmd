@@ -1,6 +1,6 @@
 ---
 title: "Xiang Guo"
-image: "xiang.jpg"
+image: "https://seankross.com/postcards-templates/jolla-blue/xiang.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"

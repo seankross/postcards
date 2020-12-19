@@ -1,6 +1,6 @@
 ---
 title: "Willkommen!"
-image: "herzl.jpg"
+image: "https://seankross.com/postcards-templates/onofre/herzl.jpg"
 color1: "#5A59A3"
 color2: "#C66060"
 angle: 130

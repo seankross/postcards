@@ -1,6 +1,6 @@
 ---
 title: "Tobi Burns"
-image: "tobi.jpg"
+image: "https://seankross.com/postcards-templates/jolla/tobi.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
