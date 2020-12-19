@@ -4,7 +4,13 @@
 \alias{jolla}
 \title{Jolla website template.}
 \usage{
-jolla()
+jolla(css = NULL, includes = NULL)
+}
+\arguments{
+\item{css}{One or more css files to include}
+
+\item{includes}{Named list of additional content to include within the
+document (typically created using the \code{\link[rmarkdown]{includes}} function).}
 }
 \description{
 Jolla website template.

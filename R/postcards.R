@@ -1,32 +1,36 @@
 #' Jolla website template.
 #'
+#' @inheritParams rmarkdown::html_document
 #' @export
-jolla <- function() {
-  get_template("jolla")
+jolla <- function(css = NULL, includes = NULL) {
+  get_template("jolla", css, includes)
 }
 
 #' Jolla Blue website template.
 #'
+#' @inheritParams rmarkdown::html_document
 #' @export
-jolla_blue <- function() {
+jolla_blue <- function(css = NULL, includes = NULL) {
   get_template("jolla-blue")
 }
 
 #' Jolla Blue website template.
 #'
+#' @inheritParams rmarkdown::html_document
 #' @export
-trestles <- function() {
+trestles <- function(css = NULL, includes = NULL) {
   get_template("trestles")
 }
 
 #' Onofre website template.
 #'
+#' @inheritParams rmarkdown::html_document
 #' @export
-onofre <- function() {
+onofre <- function(css = NULL, includes = NULL) {
   get_template("onofre")
 }
 
-get_template <- function(name) {
+get_template <- function(name, css, includes) {
 
   # Must we use "old" templates?
   minimum_required <- "2.8"
@@ -40,6 +44,8 @@ get_template <- function(name) {
     self_contained = self_contained,
     mathjax = NULL,
     template = system.file("pandoc_templates", template_file, package = "postcards"),
+    css = css,
+    includes = includes,
     md_extensions = "-autolink_bare_uris"
   )
 }
