@@ -5,10 +5,11 @@
 \title{Create a new postcard}
 \usage{
 create_postcard(
-  file = "postcard.Rmd",
+  file = "index.Rmd",
   template = "jolla",
   create_dir = FALSE,
-  edit = TRUE
+  edit = TRUE,
+  create_image = TRUE
 )
 }
 \arguments{
@@ -22,6 +23,9 @@ within the \code{rmarkdown/templates} directory of a package.}
 (defaults to `FALSE`).}
 
 \item{edit}{\code{TRUE} to edit the template immediately}
+
+\item{create_image}{`TRUE` to create a placeholder image
+(defaults to `TRUE`).}
 }
 \description{
 Create (and optionally edit) a new postcard.
