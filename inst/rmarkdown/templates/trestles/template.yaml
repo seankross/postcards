@@ -1,3 +1,4 @@
 name: Trestles
+create_dir: false
 description: >
  Template for creating Trestles.
