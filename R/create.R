@@ -9,6 +9,17 @@
 #'   (defaults to `TRUE`).
 #'
 #' @export
+#' @details
+#' Valid values for the `template` argument include `"jolla"`, `"jolla-blue"`,
+#' `"trestles"`, and `"onofre"`.
+#' @examples
+#' \dontrun{
+#'
+#' postcards::create_postcard(template = "jolla")
+#' postcards::create_postcard(template = "jolla-blue")
+#' postcards::create_postcard(template = "trestles")
+#' postcards::create_postcard(template = "onofre")
+#' }
 create_postcard <- function(file = "index.Rmd",
                             template = "jolla",
                             create_dir = FALSE,
@@ -26,10 +37,10 @@ create_postcard <- function(file = "index.Rmd",
   if(create_image) {
     img_table <- as.list(
       system.file("img",
-                  c("tobi.jpg", "xiang.jpg", "herzl.jpg", "frank.jpg"),
+                  c("tobi.jpg", "xiang.jpg", "frank.jpg", "herzl.jpg"),
                   package = "postcards"))
 
-    names(img_table) <- c("jolla", "jolla-blue", "onofre", "trestles")
+    names(img_table) <- c("jolla", "jolla-blue", "trestles", "onofre")
     file.copy(img_table[[template]], dirname(file))
   }
 

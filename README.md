@@ -44,8 +44,9 @@ Select **Create Project** after you choose a name for the folder that will
 contain your site. This folder will contain two important files: an R Markdown 
 document with your site's content, and a sample photo that you should replace.
 
-If you are not using RStudio, or you do not wish to create a new RStudio project
-you can create the corresponding template files using the following commands:
+If you are not using RStudio or if you do not wish to create a new RStudio 
+project you can create the corresponding template files using the following 
+commands:
 
 ``` r
 postcards::create_postcard(template = "jolla")
@@ -120,7 +121,6 @@ turnip prices.
 <p align="center"><img src="man/figures/trestles-preview.png" width="800px"></p>
 
 ```
----
 ---
 title: "Frank Hermosillo"
 image: "frank.jpg"
