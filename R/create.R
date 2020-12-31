@@ -39,4 +39,6 @@ create_postcard <- function(file = "index.Rmd",
     else
       utils::file.edit(file)
   }
+
+  invisible(article)
 }

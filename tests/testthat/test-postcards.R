@@ -3,7 +3,7 @@ test_template <- function(template){
 
   temp_file <- tempfile()
 
-  test_file_path <- rmarkdown::draft(temp_file, template, package = "postcards", edit = FALSE)
+  test_file_path <- postcards::create_postcard(temp_file, template, edit = FALSE, create_image = FALSE)
   file.exists(test_file_path)
 }
 
