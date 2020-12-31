@@ -17,6 +17,7 @@ LazyData: true
 RoxygenNote: 7.1.1
 Imports: 
     utils,
-    rmarkdown
+    rmarkdown,
+    rstudioapi
 Suggests: 
     testthat
