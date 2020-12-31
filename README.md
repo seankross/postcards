@@ -35,21 +35,24 @@ personal website with one R Markdown document. I hope this package can quickly
 demonstrate the power and possibilities of the R and R Markdown ecosystem to 
 newcomers.
 
-To get started customizing one of these templates you should use
-RStudio. Once you open RStudio: select **File**, **New File**, **R Markdown**, 
-then select **From Template** to choose which template you want to start with.
-Select **OK** after you choose a name for the folder that will contain your 
-site. This folder will contain two files: an R Markdown document with your
-site's content, and a sample photo that you should replace.
+To get started customizing one of these templates you should create a new
+project in RStudio. Once you open RStudio: select **File**, **New Project...**, 
+then select **New Directory**, and **Postcards Website**. Then you will need to
+enter a directory name for your RStudio project and you can choose one of the
+templates from a drop down menu.
+Select **Create Project** after you choose a name for the folder that will 
+contain your site. This folder will contain two important files: an R Markdown 
+document with your site's content, and a sample photo that you should replace.
 
-If you are not using RStudio, you can create the corresponding template files
-using the following commands:
+If you are not using RStudio or if you do not wish to create a new RStudio 
+project you can create the corresponding template files using the following 
+commands:
 
 ``` r
-rmarkdown::draft("index.Rmd", "jolla", package = "postcards")
-rmarkdown::draft("index.Rmd", "jolla-blue", package = "postcards")
-rmarkdown::draft("index.Rmd", "trestles", package = "postcards")
-rmarkdown::draft("index.Rmd", "onofre", package = "postcards")
+postcards::create_postcard(template = "jolla")
+postcards::create_postcard(template = "jolla-blue")
+postcards::create_postcard(template = "trestles")
+postcards::create_postcard(template = "onofre")
 ```
 
 To compile the self contained HTML file for your site, you can use the **Knit**
@@ -118,7 +121,6 @@ turnip prices.
 <p align="center"><img src="man/figures/trestles-preview.png" width="800px"></p>
 
 ```
----
 ---
 title: "Frank Hermosillo"
 image: "frank.jpg"

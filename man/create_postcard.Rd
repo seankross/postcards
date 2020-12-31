@@ -19,14 +19,27 @@ create_postcard(
 the full path to a template directory or the name of a template directory
 within the \code{rmarkdown/templates} directory of a package.}
 
-\item{create_dir}{`TRUE` to create a new directory for the postcard
-(defaults to `FALSE`).}
+\item{create_dir}{\code{TRUE} to create a new directory for the postcard
+(defaults to \code{FALSE}).}
 
 \item{edit}{\code{TRUE} to edit the template immediately}
 
-\item{create_image}{`TRUE` to create a placeholder image
-(defaults to `TRUE`).}
+\item{create_image}{\code{TRUE} to create a placeholder image
+(defaults to \code{TRUE}).}
 }
 \description{
 Create (and optionally edit) a new postcard.
+}
+\details{
+Valid values for the \code{template} argument include \code{"jolla"}, \code{"jolla-blue"},
+\code{"trestles"}, and \code{"onofre"}.
+}
+\examples{
+\dontrun{
+
+postcards::create_postcard(template = "jolla")
+postcards::create_postcard(template = "jolla-blue")
+postcards::create_postcard(template = "trestles")
+postcards::create_postcard(template = "onofre")
+}
 }
