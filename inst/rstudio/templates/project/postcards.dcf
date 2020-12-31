@@ -1,0 +1,10 @@
+Binding: new_project_create_postcard
+Title: Postcards Website
+OpenFiles: index.Rmd
+
+Parameter: template
+Widget: SelectInput
+Label: Which template would you like to use?
+Fields: Jolla, Jolla Blue, Trestles, Onofre
+Default: Jolla
+Position: left

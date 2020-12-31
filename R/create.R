@@ -42,3 +42,19 @@ create_postcard <- function(file = "index.Rmd",
 
   invisible(article)
 }
+
+new_project_create_postcard <- function(path, ...) {
+  params <- list(...)
+  dir.create(path, recursive = TRUE, showWarnings = FALSE)
+
+  if (rstudioapi::isAvailable("1.1.287")) {
+    rstudioapi::initializeProject(path)
+  }
+
+  template_table <- as.list(c("jolla", "jolla-blue", "trestles", "onofre"))
+  names(template_table) <- c("Jolla", "Jolla Blue", "Trestles", "Onofre")
+
+  create_postcard(file.path(path, "index.Rmd"),
+                  template = template_table[[params[["template"]]]],
+                  edit = FALSE)
+}
