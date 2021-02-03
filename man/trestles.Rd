@@ -4,13 +4,19 @@
 \alias{trestles}
 \title{Jolla Blue website template.}
 \usage{
-trestles(css = NULL, includes = NULL)
+trestles(css = NULL, includes = NULL, self_contained = TRUE)
 }
 \arguments{
 \item{css}{One or more css files to include}
 
 \item{includes}{Named list of additional content to include within the
 document (typically created using the \code{\link[rmarkdown]{includes}} function).}
+
+\item{self_contained}{Produce a standalone HTML file with no external
+dependencies, using data: URIs to incorporate the contents of linked
+scripts, stylesheets, images, and videos. Note that even for self contained
+documents MathJax is still loaded externally (this is necessary because of
+its size).}
 }
 \description{
 Jolla Blue website template.
