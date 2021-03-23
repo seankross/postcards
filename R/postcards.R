@@ -14,7 +14,7 @@ jolla_blue <- function(css = NULL, includes = NULL) {
   get_template("jolla-blue", css, includes)
 }
 
-#' Jolla Blue website template.
+#' Trestles website template.
 #'
 #' @inheritParams rmarkdown::html_document
 #' @export
