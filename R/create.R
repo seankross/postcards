@@ -41,14 +41,14 @@ create_postcard <- function(file = "index.Rmd",
                   package = "postcards"))
 
     names(img_table) <- c("jolla", "jolla-blue", "trestles", "onofre")
-    file.copy(img_table[[template]], dirname(file))
+    file.copy(img_table[[template]], dirname(article))
   }
 
   if (edit) {
     if (rstudioapi::hasFun("navigateToFile"))
-      rstudioapi::navigateToFile(file)
+      rstudioapi::navigateToFile(article)
     else
-      utils::file.edit(file)
+      utils::file.edit(article)
   }
 
   invisible(article)
