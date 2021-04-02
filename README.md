@@ -194,6 +194,23 @@ in New York City. "ГУМ" is their latest project which examines the rise of
 consumerism in post-Soviet republics.
 ```
 
+## Meta tags
+
+Each of the templates has an optional meta section. If you include it, the values 
+will be used to create social cards, like for twitter. 
+
+```
+meta:
+  description: "floatplane data artist"
+  url: "yoursite.com"
+  twitter: "yourname"
+```
+These tags assume that `@yourname` is your twitter handle. Do not include the "@" because it confuses pandoc.
+The code also assumes that your image is going to be at the first level of your site, like: `yoursite.com/herzl.jpg`.
+You can edit the resulting index.html if that is not true. 
+Check your card with the twitter card validator. 
+
+
 ## Troubleshooting
 
 Most issues that people have using this package are related their installation
