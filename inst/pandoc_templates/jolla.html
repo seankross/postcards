@@ -11,18 +11,18 @@
     <title>$title$</title>
     
     $if(meta)$
-      <meta name="description" content="$meta.description$">
-      <meta name="twitter:description" content="$meta.description$"/>
-      <meta name="og:description" content="$meta.description$"/>
-      <meta name="twitter:title" content="$title$"/>
-      <meta name="og:title" content="$title$"/>
-      <meta name="twitter:url" content="$meta.url$"/>
-      <meta property="og:url" content="$meta.url$"/>
-      <meta name="twitter:image:src" content="$image$"/>
-      <meta property="og:image" content="$image$"/>
-      <meta name="twitter:card" content="summary"/>
-      <meta name="twitter:creator" content="@$meta.twitter$"/>
-      <meta name="twitter:site" content="@$meta.twitter$"/>
+    <meta name="description" content="$meta.description$"></meta>
+      <meta name="twitter:description" content="$meta.description$"></meta>
+      <meta name="og:description" content="$meta.description$"></meta>
+      <meta name="twitter:title" content="$title$"></meta>
+      <meta name="og:title" content="$title$"></meta>
+      <meta name="twitter:url" content="$meta.url$"></meta>
+      <meta property="og:url" content="$meta.url$"></meta>
+      <meta name="twitter:image:src" content="$meta.url$/$image$"></meta>
+      <meta property="og:image" content="$meta.url$/$image$"></meta>
+      <meta name="twitter:card" content="summary"></meta>
+      <meta name="twitter:creator" content="@$meta.twitter$"></meta>
+      <meta name="twitter:site" content="@$meta.twitter$"></meta>
     $endif$
 
     $if(favicon)$
