@@ -13,6 +13,10 @@ links:
     url: "https://twitter.com/"
   - label: Email
     url: "mailto:email@email.com"
+meta:
+  - description: "floatplane data artist"
+  - url: "yoursite.com"
+  - twitter: "@yourname"
 output:
   postcards::onofre
 ---
