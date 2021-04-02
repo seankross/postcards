@@ -16,7 +16,7 @@ links:
 meta:
   description: "floatplane data artist"
   url: "yoursite.com"
-  twitter: "@yourname"
+  twitter: "yourname"
 output:
   postcards::onofre
 ---
