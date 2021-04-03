@@ -31,10 +31,16 @@
     $for(include-before)$
       $include-before$
     $endfor$
+    
+    
 
     <div class="container-fluid d-none d-lg-block d-xl-block">
       <div class="d-flex row flex-row vh-100">
-        <div class="d-flex flex-column col-12 col-md-$leftsize$ align-items-center text-center align-self-center">
+        $if(leftsize)$
+          <div class="d-flex flex-column col-12 col-md-$leftsize$ align-items-center text-center align-self-center">
+        $else$
+          <div class="d-flex flex-column col-12 col-md-5 align-items-center text-center align-self-center">
+        $endif$
           <div class="mx-auto text-center">
             <div class="p-3">
               <img src=$image$ style="height:15rem" class="rounded">
