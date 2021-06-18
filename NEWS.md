@@ -1,3 +1,7 @@
+# postcards 0.2.1
+
+* Added `solana()`.
+
 # postcards 0.2.0
 
 * Added `create_postcard()`.

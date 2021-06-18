@@ -1,5 +1,5 @@
 ## Test environments
-* local macOS Mojave: R 4.0.2
+* local macOS Mojave: R 4.1.0
 * GitHub Actions (ubuntu-20.04): release, devel
 * GitHub Actions (windows): release
 * Github Actions (macOS): release

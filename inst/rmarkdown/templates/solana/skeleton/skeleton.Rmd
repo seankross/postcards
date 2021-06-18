@@ -1,0 +1,36 @@
+---
+title: "Sigríður Björndotter"
+image: "sigridur.jpg"
+links:
+  - label: CV
+    url: "https://linkedin.com/"
+  - label: Blog
+    url: "https://medium.com/"
+  - label: GitHub
+    url: "https://github.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+output:
+  postcards::solana
+---
+ 
+## Bio
+
+Sigríður Björndotter is a musician, vocalist, and live entertainment consultant
+living in Buenos Aires, Argentina. Previously she 
+
+## Education
+
+**Massachusetts Institute of Technology** | Cambridge, MA
+
+Ph.D. in Computer Science | September 2009 - May 2014
+
+**The University of California, Berkeley** | Berkeley, CA
+
+B.S. in Computer Science | September 2005 - May 2009
+
+## Experience
+
+**Google Brain** | Principal Investigator | January 2018 - Present
+
+**Netflix** | Research Scientist | June 2014 - December 2017
