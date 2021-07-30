@@ -1,3 +1,7 @@
+# postcards 0.2.2
+
+* Fixed image not appearing in Solana. Thank you @jdhoffa.
+
 # postcards 0.2.1
 
 * Added `solana()`.
