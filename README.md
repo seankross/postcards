@@ -24,11 +24,12 @@ remotes::install_github("seankross/postcards@main")
 
 ## Getting Started
 
-Postcards includes four templates:
+Postcards includes five templates:
 [Jolla](https://seankross.com/postcards-templates/jolla/),
 [Jolla Blue](https://seankross.com/postcards-templates/jolla-blue/),
 [Trestles](https://seankross.com/postcards-templates/trestles/),
-and [Onofre](https://seankross.com/postcards-templates/onofre/).
+[Onofre](https://seankross.com/postcards-templates/onofre/),
+and [Solana](https://seankross.com/postcards-templates/solana/).
 Each site is optimized for being displayed on desktop and mobile.
 The goal of the package is to make it easy for anyone to create a single page
 personal website with one R Markdown document. I hope this package can quickly
@@ -53,6 +54,7 @@ postcards::create_postcard(template = "jolla")
 postcards::create_postcard(template = "jolla-blue")
 postcards::create_postcard(template = "trestles")
 postcards::create_postcard(template = "onofre")
+postcards::create_postcard(template = "solana")
 ```
 
 To compile the self contained HTML file for your site, you can use the **Knit**
@@ -194,6 +196,58 @@ in New York City. "ГУМ" is their latest project which examines the rise of
 consumerism in post-Soviet republics.
 ```
 
+### Solana
+
+<p align="center"><img src="man/figures/solana-preview.png" width="800px"></p>
+
+```
+---
+title: "Sigríður Björndotter"
+image: "sigridur.jpg"
+links:
+  - label: Resume
+    url: "https://linkedin.com/"
+  - label: Blog
+    url: "https://medium.com/"
+  - label: SoundCloud
+    url: "https://soundcloud.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+output:
+  postcards::solana
+---
+ 
+## Bio
+
+Sigríður Björndotter is a musician, vocalist, and live entertainment consultant
+living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone,
+Billboard, and NME, and she is a frequent contributor to National Public Radio's 
+*All Songs Considered*. She has been raising Pembroke Welsh Corgis since the age
+of six, and she has collected Casio watches since the age of ten.
+
+## Education
+
+**INSEAD** | Fontainebleau, France
+
+M.B.A. | August 2014 - June 2015
+
+**The Juilliard School** | New York, NY
+
+B.F.A. in Music Performance | August 2005 - May 2009
+
+## Experience
+
+**Freelance** | Live Entertainment Consultant | August 2018 - Present
+
+**Cercle** | Producer | August 2018 - Present
+
+**National Public Radio** | Producer | May 2015 - July 2018
+
+**NME Magazine** | Editor | July 2014 - July 2016
+
+**Iceland Symphony Orchestra** | Cellist | October 2009 - June 2014
+```
+
 ## Troubleshooting
 
 Most issues that people have using this package are related their installation
@@ -217,7 +271,7 @@ rmarkdown::find_pandoc(cache = FALSE)
 
 If you do not see that the new Pandoc version has been installed, you may need
 to use RStudio and 
-[install the latest preview release of RStudio](https://rstudio.com/products/rstudio/download/preview/).
+[install the latest preview release of RStudio](https://www.rstudio.com/products/rstudio/download/preview/).
 If you are still encountering error messages after trying the above please open
 an issue.
 

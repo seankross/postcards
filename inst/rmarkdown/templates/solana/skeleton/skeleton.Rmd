@@ -1,0 +1,45 @@
+---
+title: "Sigríður Björndotter"
+image: "sigridur.jpg"
+links:
+  - label: Resume
+    url: "https://linkedin.com/"
+  - label: Blog
+    url: "https://medium.com/"
+  - label: SoundCloud
+    url: "https://soundcloud.com/"
+  - label: Twitter
+    url: "https://twitter.com/"
+output:
+  postcards::solana
+---
+ 
+## Bio
+
+Sigríður Björndotter is a musician, vocalist, and live entertainment consultant
+living in Buenos Aires, Argentina. Her writing has appeared in Rolling Stone,
+Billboard, and NME, and she is a frequent contributor to National Public Radio's 
+*All Songs Considered*. She has been raising Pembroke Welsh Corgis since the age
+of six, and she has collected Casio watches since the age of ten.
+
+## Education
+
+**INSEAD** | Fontainebleau, France
+
+M.B.A. | August 2014 - June 2015
+
+**The Juilliard School** | New York, NY
+
+B.F.A. in Music Performance | August 2005 - May 2009
+
+## Experience
+
+**Freelance** | Live Entertainment Consultant | August 2018 - Present
+
+**Cercle** | Producer | August 2018 - Present
+
+**National Public Radio** | Producer | May 2015 - July 2018
+
+**NME Magazine** | Editor | July 2014 - July 2016
+
+**Iceland Symphony Orchestra** | Cellist | October 2009 - June 2014
