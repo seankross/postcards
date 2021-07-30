@@ -271,7 +271,7 @@ rmarkdown::find_pandoc(cache = FALSE)
 
 If you do not see that the new Pandoc version has been installed, you may need
 to use RStudio and 
-[install the latest preview release of RStudio](https://rstudio.com/products/rstudio/download/preview/).
+[install the latest preview release of RStudio](https://www.rstudio.com/products/rstudio/download/preview/).
 If you are still encountering error messages after trying the above please open
 an issue.
 
