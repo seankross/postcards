@@ -7,4 +7,9 @@
 
 ## R CMD check results
 
-0 errors | 0 warnings | 0 notes
+0 errors | 0 warnings | 1 note
+
+* Days since last update: 1
+
+I was made aware of an implementation error and this
+version (0.2.2) fixes the error.
