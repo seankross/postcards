@@ -34,9 +34,7 @@ solana <- function(css = NULL, includes = NULL, ...) {
 get_template <- function(name, css, includes, ...) {
 
   # Must we use "old" templates?
-  minimum_required <- "2.8"
-  installed <- as.character(rmarkdown::pandoc_version())
-  self_contained <- !(utils::compareVersion(minimum_required, installed) > 0)
+  self_contained <- rmarkdown::pandoc_available("2.8")
 
   template_file <- paste0(name, ".html")
 
