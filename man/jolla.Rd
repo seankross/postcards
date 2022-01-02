@@ -8,15 +8,15 @@
 \alias{solana}
 \title{Website templates}
 \usage{
-jolla(css = NULL, includes = NULL)
+jolla(css = NULL, includes = NULL, ...)
 
-jolla_blue(css = NULL, includes = NULL)
+jolla_blue(css = NULL, includes = NULL, ...)
 
-trestles(css = NULL, includes = NULL)
+trestles(css = NULL, includes = NULL, ...)
 
-onofre(css = NULL, includes = NULL)
+onofre(css = NULL, includes = NULL, ...)
 
-solana(css = NULL, includes = NULL)
+solana(css = NULL, includes = NULL, ...)
 }
 \arguments{
 \item{css}{CSS and/or Sass files to include. Files with an extension of .sass
@@ -26,6 +26,8 @@ Sass variables, functions, mixins, etc.}
 
 \item{includes}{Named list of additional content to include within the
 document (typically created using the \code{\link[rmarkdown]{includes}} function).}
+
+\item{...}{Additional arguments passed to \code{rmarkdown::html_document()}}
 }
 \description{
 Website templates
