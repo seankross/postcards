@@ -6,7 +6,7 @@
 \alias{trestles}
 \alias{onofre}
 \alias{solana}
-\title{Website templates}
+\title{Postcards templates}
 \usage{
 jolla(css = NULL, includes = NULL, ...)
 
@@ -30,5 +30,5 @@ document (typically created using the \code{\link[rmarkdown]{includes}} function
 \item{...}{Additional arguments passed to \code{rmarkdown::html_document()}}
 }
 \description{
-Website templates
+Postcards templates
 }

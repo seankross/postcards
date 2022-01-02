@@ -1,4 +1,4 @@
-#' Website templates
+#' Postcards templates
 #'
 #' @inheritParams rmarkdown::html_document
 #' @param ... Additional arguments passed to `rmarkdown::html_document()`
