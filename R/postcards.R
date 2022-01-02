@@ -1,4 +1,4 @@
-#' Jolla website template.
+#' Website templates
 #'
 #' @inheritParams rmarkdown::html_document
 #' @export
@@ -6,33 +6,25 @@ jolla <- function(css = NULL, includes = NULL) {
   get_template("jolla", css, includes)
 }
 
-#' Jolla Blue website template.
-#'
-#' @inheritParams rmarkdown::html_document
+#' @rdname jolla
 #' @export
 jolla_blue <- function(css = NULL, includes = NULL) {
   get_template("jolla-blue", css, includes)
 }
 
-#' Jolla Blue website template.
-#'
-#' @inheritParams rmarkdown::html_document
+#' @rdname jolla
 #' @export
 trestles <- function(css = NULL, includes = NULL) {
   get_template("trestles", css, includes)
 }
 
-#' Onofre website template.
-#'
-#' @inheritParams rmarkdown::html_document
+#' @rdname jolla
 #' @export
 onofre <- function(css = NULL, includes = NULL) {
   get_template("onofre", css, includes)
 }
 
-#' Solana website template.
-#'
-#' @inheritParams rmarkdown::html_document
+#' @rdname jolla
 #' @export
 solana <- function(css = NULL, includes = NULL) {
   get_template("solana", css, includes)

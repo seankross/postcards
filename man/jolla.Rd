@@ -2,9 +2,21 @@
 % Please edit documentation in R/postcards.R
 \name{jolla}
 \alias{jolla}
-\title{Jolla website template.}
+\alias{jolla_blue}
+\alias{trestles}
+\alias{onofre}
+\alias{solana}
+\title{Website templates}
 \usage{
 jolla(css = NULL, includes = NULL)
+
+jolla_blue(css = NULL, includes = NULL)
+
+trestles(css = NULL, includes = NULL)
+
+onofre(css = NULL, includes = NULL)
+
+solana(css = NULL, includes = NULL)
 }
 \arguments{
 \item{css}{CSS and/or Sass files to include. Files with an extension of .sass
@@ -16,5 +28,5 @@ Sass variables, functions, mixins, etc.}
 document (typically created using the \code{\link[rmarkdown]{includes}} function).}
 }
 \description{
-Jolla website template.
+Website templates
 }
