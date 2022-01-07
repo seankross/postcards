@@ -18,7 +18,6 @@ RoxygenNote: 7.1.2
 Imports: 
     utils,
     rmarkdown,
-    rstudioapi,
-    bslib
+    rstudioapi
 Suggests: 
     testthat
