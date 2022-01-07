@@ -1,6 +1,6 @@
 Package: postcards
 Title: Create Beautiful, Simple Personal Websites
-Version: 0.2.2
+Version: 0.2.3
 Authors@R: 
     person(given = "Sean",
            family = "Kross",
@@ -9,7 +9,7 @@ Authors@R:
            comment = c(ORCID = "0000-0001-5215-0316"))
 Description: A collection of R Markdown templates for creating simple and easy 
   to personalize single page websites.
-License: CC0
+License: MIT + file LICENSE
 URL: https://github.com/seankross/postcards
 BugReports: https://github.com/seankross/postcards/issues
 Encoding: UTF-8
