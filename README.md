@@ -126,6 +126,7 @@ turnip prices.
 ---
 title: "Frank Hermosillo"
 image: "frank.jpg"
+leftsize: 5
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
