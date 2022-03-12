@@ -207,7 +207,7 @@ meta:
 ```
 These tags assume that `@yourname` is your twitter handle. Do not include the "@" because it confuses pandoc.
 The code also assumes that your image is going to be at the first level of your site, like: `yoursite.com/herzl.jpg`.
-You can edit the resulting index.html if that is not true. 
+
 Check your card with the twitter card validator. 
 
 
