@@ -21,7 +21,7 @@
       <meta name="og:title" content="$title$"></meta>
       <meta name="twitter:url" content="$meta.url$"></meta>
       <meta property="og:url" content="$meta.url$"></meta>
-      <meta name="twitter:image:src" content="$meta.url$/$image$"></meta>
+      <meta name="twitter:image:src" content="$if(meta.image)$$meta.image$$else$$meta.url$/$image$$endif$"></meta>
       <meta property="og:image" content="$meta.url$/$image$"></meta>
       <meta name="twitter:card" content="summary"></meta>
       <meta name="twitter:creator" content="@$meta.twitter$"></meta>
