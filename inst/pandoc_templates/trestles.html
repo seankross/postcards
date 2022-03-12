@@ -24,8 +24,10 @@
       <meta name="twitter:image:src" content="$meta.url$/$image$"></meta>
       <meta property="og:image" content="$meta.url$/$image$"></meta>
       <meta name="twitter:card" content="summary"></meta>
+      $if(twitter)$
       <meta name="twitter:creator" content="@$meta.twitter$"></meta>
       <meta name="twitter:site" content="@$meta.twitter$"></meta>
+    $endif$
     $endif$
 
     $if(favicon)$
