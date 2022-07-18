@@ -250,8 +250,8 @@ B.F.A. in Music Performance | August 2005 - May 2009
 
 ## Troubleshooting
 
-Most issues that people have using this package are related their installation
-Pandoc, software that R Markdown relies on.
+Most issues that people have when using this package, relates to their installation
+of Pandoc software, that R Markdown relies on.
 Currently Postcards works best with Pandoc version 2.8 or greater, although we
 are working on better functionality for earlier versions of Pandoc. 
 You can check which version of Pandoc you have installed with the following 
