@@ -70,7 +70,7 @@
             <div class="col-8 m-1 text-center d-block d-sm-none">
               <div class="list-group">
                 $for(links)$
-                <a href=$links.url$>
+                <a href=$links.url$ $if(links.rel)$ rel=$links.rel$ $endif$>
                   <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #3A66B7;color: #FEFEFA;border-color: #FEFEFA;">
                     $links.label$
                   </button>
