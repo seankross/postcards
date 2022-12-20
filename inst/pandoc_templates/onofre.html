@@ -58,7 +58,7 @@
             <ul class="list-inline">
               $for(links)$
               <li class="list-inline-item">
-                <a href=$links.url$>
+                <a href=$links.url$ $if(links.rel)$ rel=$links.rel$ $endif$>
                   <button type="button" class="btn btn-outline-light mb-2">
                     $links.label$
                   </button>
