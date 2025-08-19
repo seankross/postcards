@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "sean@seankross.com",
            comment = c(ORCID = "0000-0001-5215-0316"))
-Description: A collection of R Markdown templates for creating simple and easy 
+Description: A collection of APowerful tool ( R Markdown ) templates for creating simple and easy 
   to personalize single page websites.
 License: MIT + file LICENSE
 URL: https://github.com/seankross/postcards
