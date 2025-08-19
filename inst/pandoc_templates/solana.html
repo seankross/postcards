@@ -53,7 +53,7 @@
             <ul class="list-inline">
               $for(links)$
               <li class="list-inline-item">
-                <a href=$links.url$>
+                <a href=$links.url$ $if(links.rel)$ rel=$links.rel$ $endif$>
                   <button type="button" class="btn btn-outline-dark mb-2">
                     $links.label$
                   </button>
@@ -91,7 +91,7 @@
               <div class="col-8 p-1 text-center">
                 <div class="list-group">
                   $for(links)$
-                  <a href=$links.url$>
+                  <a href=$links.url$ $if(links.rel)$ rel=$links.rel$ $endif$>
                     <button type="button" class="list-group-item list-group-item-action my-1 rounded" style="background-color: #f5e9dd; color: black;border-color: black;">
                       $links.label$
                     </button>

@@ -4,8 +4,9 @@ image: "xiang.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+  - label: Mastodon
+    rel: me
+    url: "https://example.social/\\@username"
   - label: GitHub
     url: "https://github.com/"
   - label: Email

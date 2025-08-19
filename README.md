@@ -76,8 +76,9 @@ image: "tobi.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+  - label: Mastodon
+    rel: me
+    url: "https://example.social/\\@username"
   - label: GitHub
     url: "https://github.com/"
   - label: Email
@@ -102,8 +103,9 @@ image: "xiang.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+  - label: Mastodon
+    rel: me
+    url: "https://example.social/\\@username"
   - label: GitHub
     url: "https://github.com/"
   - label: Email
@@ -129,8 +131,9 @@ image: "frank.jpg"
 links:
   - label: LinkedIn
     url: "https://linkedin.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+  - label: Mastodon
+    rel: me
+    url: "https://example.social/\\@username"
   - label: GitHub
     url: "https://github.com/"
   - label: Email
@@ -181,8 +184,9 @@ links:
     url: "https://youtube.com/"
   - label: Vimeo
     url: "https://vimeo.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+  - label: Mastodon
+    rel: me
+    url: "https://example.social/\\@username"
   - label: Email
     url: "mailto:email@email.com"
 output:
@@ -211,8 +215,9 @@ links:
     url: "https://medium.com/"
   - label: SoundCloud
     url: "https://soundcloud.com/"
-  - label: Twitter
-    url: "https://twitter.com/"
+  - label: Mastodon
+    rel: me
+    url: "https://example.social/\\@username"
 output:
   postcards::solana
 ---
