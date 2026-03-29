@@ -56,7 +56,13 @@ postcards::create_postcard(template = "trestles")
 postcards::create_postcard(template = "onofre")
 postcards::create_postcard(template = "solana")
 ```
+## Quick Start
 
+Create your first postcard in just a few steps:
+
+```r
+install.packages("postcards")
+postcards::create_postcard("jolla")
 To compile the self contained HTML file for your site, you can use the **Knit**
 button in RStudio or you can use `rmarkdown::render("index.Rmd")`. 
 The HTML file can then be easily deployed to 
