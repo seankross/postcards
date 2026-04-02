@@ -295,3 +295,15 @@ If you're using the RStudio keybindings in Positron, the Cmd-Shift-K shortcut wi
 ## Code of Conduct
 
 Please note that the postcards project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
+
+
+## Feel free to make a pull request if you see anything you'd like to add to this repo!
+
+Add a PR by doing:
+1. Fork this repo
+2. Clone the fork on git bash by doing: git clone https://github.com/username/postcards.git
+3. Go to the postcards directory by doing: cd postcards
+4. Create a new branch: git checkout -b name-of-branch
+5. Edit the code you would like to add/change
+6. Commit and push your changes
+7. Open github and open the fork, click "Compare and pull request" and make a PR.
